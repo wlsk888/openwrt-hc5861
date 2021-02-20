@@ -1,0 +1,223 @@
+CONFIG_TARGET_ramips=y
+CONFIG_TARGET_ramips_mt7620=y
+CONFIG_TARGET_ramips_mt7620_DEVICE_hiwifi_hc5861=y
+CONFIG_COREMARK_OPTIMIZE_O3=y
+# CONFIG_DROPBEAR_ED25519 is not set
+# CONFIG_KERNEL_BLK_DEV_THROTTLING is not set
+# CONFIG_KERNEL_CFS_BANDWIDTH is not set
+CONFIG_KERNEL_CGROUP_DEVICE=y
+CONFIG_KERNEL_CGROUP_FREEZER=y
+CONFIG_KERNEL_CGROUP_NET_PRIO=y
+# CONFIG_KERNEL_KEYS is not set
+# CONFIG_KERNEL_MEMCG_SWAP is not set
+CONFIG_KERNEL_NET_CLS_CGROUP=y
+CONFIG_LIBCURL_COOKIES=y
+CONFIG_LIBCURL_FILE=y
+CONFIG_LIBCURL_FTP=y
+CONFIG_LIBCURL_HTTP=y
+CONFIG_LIBCURL_NO_SMB="!"
+CONFIG_LIBCURL_PROXY=y
+CONFIG_LIBCURL_WOLFSSL=y
+CONFIG_LIBSODIUM_MINIMAL=y
+CONFIG_OPENSSL_ENGINE=y
+CONFIG_OPENSSL_ENGINE_BUILTIN=y
+CONFIG_OPENSSL_ENGINE_BUILTIN_AFALG=y
+CONFIG_OPENSSL_ENGINE_BUILTIN_DEVCRYPTO=y
+CONFIG_OPENSSL_OPTIMIZE_SPEED=y
+CONFIG_OPENSSL_PREFER_CHACHA_OVER_GCM=y
+CONFIG_OPENSSL_WITH_ASM=y
+CONFIG_OPENSSL_WITH_CHACHA_POLY1305=y
+CONFIG_OPENSSL_WITH_CMS=y
+CONFIG_OPENSSL_WITH_DEPRECATED=y
+CONFIG_OPENSSL_WITH_ERROR_MESSAGES=y
+CONFIG_OPENSSL_WITH_PSK=y
+CONFIG_OPENSSL_WITH_SRP=y
+CONFIG_OPENSSL_WITH_TLS13=y
+CONFIG_PACKAGE_antfs-mount=y
+CONFIG_PACKAGE_block-mount=y
+CONFIG_PACKAGE_boost=m
+CONFIG_PACKAGE_boost-program_options=m
+CONFIG_PACKAGE_boost-system=m
+CONFIG_PACKAGE_ca-bundle=m
+CONFIG_PACKAGE_ca-certificates=y
+CONFIG_PACKAGE_cgi-io=y
+CONFIG_PACKAGE_coremark=y
+CONFIG_PACKAGE_coreutils=y
+CONFIG_PACKAGE_coreutils-base64=y
+CONFIG_PACKAGE_coreutils-nohup=m
+CONFIG_PACKAGE_curl=m
+CONFIG_PACKAGE_ddns-scripts=m
+CONFIG_PACKAGE_ddns-scripts-services=m
+CONFIG_PACKAGE_dns2socks=y
+# CONFIG_PACKAGE_dnsmasq is not set
+CONFIG_PACKAGE_dnsmasq-full=y
+CONFIG_PACKAGE_dnsmasq_full_dhcp=y
+CONFIG_PACKAGE_dnsmasq_full_ipset=y
+CONFIG_PACKAGE_dnsmasq_full_tftp=y
+CONFIG_PACKAGE_etherwake=y
+CONFIG_PACKAGE_frpc=m
+CONFIG_PACKAGE_haproxy=m
+CONFIG_PACKAGE_ip-full=y
+CONFIG_PACKAGE_ipset=y
+CONFIG_PACKAGE_ipt2socks=m
+CONFIG_PACKAGE_iptables-mod-tproxy=y
+# CONFIG_PACKAGE_iwinfo is not set
+CONFIG_PACKAGE_kmod-asn1-decoder=y
+CONFIG_PACKAGE_kmod-crypto-aead=y
+CONFIG_PACKAGE_kmod-crypto-arc4=y
+CONFIG_PACKAGE_kmod-crypto-authenc=y
+CONFIG_PACKAGE_kmod-crypto-crc32c=y
+CONFIG_PACKAGE_kmod-crypto-ecb=y
+CONFIG_PACKAGE_kmod-crypto-hash=y
+CONFIG_PACKAGE_kmod-crypto-manager=y
+CONFIG_PACKAGE_kmod-crypto-null=y
+CONFIG_PACKAGE_kmod-crypto-pcompress=y
+CONFIG_PACKAGE_kmod-crypto-sha1=y
+CONFIG_PACKAGE_kmod-crypto-user=y
+CONFIG_PACKAGE_kmod-cryptodev=y
+CONFIG_PACKAGE_kmod-fs-antfs=y
+CONFIG_PACKAGE_kmod-fs-exfat=y
+CONFIG_PACKAGE_kmod-fs-ext4=y
+CONFIG_PACKAGE_kmod-fs-vfat=y
+CONFIG_PACKAGE_kmod-ipt-ipset=y
+CONFIG_PACKAGE_kmod-ipt-raw=y
+CONFIG_PACKAGE_kmod-ipt-tproxy=y
+CONFIG_PACKAGE_kmod-lib-crc16=y
+CONFIG_PACKAGE_kmod-lib-textsearch=y
+CONFIG_PACKAGE_kmod-macvlan=y
+CONFIG_PACKAGE_kmod-mppe=y
+CONFIG_PACKAGE_kmod-nf-conntrack-netlink=y
+CONFIG_PACKAGE_kmod-nf-nathelper=y
+CONFIG_PACKAGE_kmod-nf-nathelper-extra=y
+CONFIG_PACKAGE_kmod-nfnetlink=y
+CONFIG_PACKAGE_kmod-nls-cp437=y
+CONFIG_PACKAGE_kmod-nls-iso8859-1=y
+CONFIG_PACKAGE_kmod-nls-utf8=y
+CONFIG_PACKAGE_kmod-scsi-core=y
+CONFIG_PACKAGE_kmod-tcp-bbr=y
+CONFIG_PACKAGE_kmod-tun=m
+CONFIG_PACKAGE_kmod-usb-storage=y
+CONFIG_PACKAGE_kmod-usb-storage-extras=y
+CONFIG_PACKAGE_libatomic=m
+CONFIG_PACKAGE_libcap-ng=y
+CONFIG_PACKAGE_libcares=m
+CONFIG_PACKAGE_libcurl=m
+CONFIG_PACKAGE_libelf=y
+CONFIG_PACKAGE_libev=y
+CONFIG_PACKAGE_libipset=y
+CONFIG_PACKAGE_libiwinfo-lua=y
+CONFIG_PACKAGE_libltdl=m
+CONFIG_PACKAGE_liblua=y
+CONFIG_PACKAGE_liblua5.3=m
+CONFIG_PACKAGE_liblucihttp=y
+CONFIG_PACKAGE_liblucihttp-lua=y
+CONFIG_PACKAGE_libmbedtls=y
+CONFIG_PACKAGE_libminiupnpc=m
+CONFIG_PACKAGE_libmnl=y
+CONFIG_PACKAGE_libnatpmp=m
+CONFIG_PACKAGE_libncurses=m
+CONFIG_PACKAGE_libopenssl=y
+CONFIG_PACKAGE_libopenssl-conf=y
+CONFIG_PACKAGE_libpcre=y
+CONFIG_PACKAGE_libreadline=m
+CONFIG_PACKAGE_librt=y
+CONFIG_PACKAGE_libsodium=y
+CONFIG_PACKAGE_libstdcpp=m
+CONFIG_PACKAGE_libubus-lua=y
+CONFIG_PACKAGE_libuci-lua=y
+CONFIG_PACKAGE_libustream-openssl=y
+# CONFIG_PACKAGE_libustream-wolfssl is not set
+CONFIG_PACKAGE_libuuid=y
+CONFIG_PACKAGE_libwolfssl=m
+CONFIG_PACKAGE_lua=y
+CONFIG_PACKAGE_luci=y
+CONFIG_PACKAGE_luci-app-accesscontrol=y
+CONFIG_PACKAGE_luci-app-adguardhome=y
+CONFIG_PACKAGE_luci-app-autoreboot=m
+CONFIG_PACKAGE_luci-app-ddns=m
+CONFIG_PACKAGE_luci-app-firewall=y
+CONFIG_PACKAGE_luci-app-frpc=m
+CONFIG_PACKAGE_luci-app-opkg=y
+CONFIG_PACKAGE_luci-app-passwall=m
+CONFIG_PACKAGE_luci-app-ramfree=y
+CONFIG_PACKAGE_luci-app-smartdns=y
+CONFIG_PACKAGE_luci-app-socat=m
+CONFIG_PACKAGE_luci-app-ssr-plus=m
+CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks=y
+CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Server=y
+CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Xray=y
+CONFIG_PACKAGE_luci-app-upnp=y
+CONFIG_PACKAGE_luci-app-wol=y
+CONFIG_PACKAGE_luci-app-zerotier=m
+CONFIG_PACKAGE_luci-base=y
+CONFIG_PACKAGE_luci-compat=y
+CONFIG_PACKAGE_luci-lib-base=y
+CONFIG_PACKAGE_luci-lib-ip=y
+CONFIG_PACKAGE_luci-lib-ipkg=m
+CONFIG_PACKAGE_luci-lib-jsonc=y
+CONFIG_PACKAGE_luci-lib-nixio=y
+CONFIG_PACKAGE_luci-mod-admin-full=y
+CONFIG_PACKAGE_luci-mod-network=y
+CONFIG_PACKAGE_luci-mod-status=y
+CONFIG_PACKAGE_luci-mod-system=y
+CONFIG_PACKAGE_luci-proto-ipv6=y
+CONFIG_PACKAGE_luci-proto-ppp=y
+CONFIG_PACKAGE_luci-theme-argon=y
+CONFIG_PACKAGE_luci-theme-bootstrap=y
+CONFIG_PACKAGE_microsocks=y
+CONFIG_PACKAGE_miniupnpd=y
+# CONFIG_PACKAGE_odhcp6c is not set
+# CONFIG_PACKAGE_odhcpd-ipv6only is not set
+CONFIG_PACKAGE_openssl-util=y
+CONFIG_PACKAGE_pdnsd-alt=y
+CONFIG_PACKAGE_resolveip=y
+CONFIG_PACKAGE_rpcd=y
+CONFIG_PACKAGE_rpcd-mod-file=y
+CONFIG_PACKAGE_rpcd-mod-iwinfo=y
+CONFIG_PACKAGE_rpcd-mod-luci=y
+CONFIG_PACKAGE_rpcd-mod-rrdns=y
+CONFIG_PACKAGE_shadowsocks-libev-config=y
+CONFIG_PACKAGE_shadowsocks-libev-ss-local=y
+CONFIG_PACKAGE_shadowsocks-libev-ss-redir=y
+CONFIG_PACKAGE_shadowsocks-libev-ss-server=m
+CONFIG_PACKAGE_shadowsocksr-libev-alt=y
+CONFIG_PACKAGE_shadowsocksr-libev-server=m
+CONFIG_PACKAGE_shadowsocksr-libev-ssr-local=y
+CONFIG_PACKAGE_simple-obfs=y
+CONFIG_PACKAGE_smartdns=y
+CONFIG_PACKAGE_socat=m
+CONFIG_PACKAGE_tcping=y
+CONFIG_PACKAGE_terminfo=m
+CONFIG_PACKAGE_trojan-plus=m
+CONFIG_PACKAGE_uhttpd=y
+CONFIG_PACKAGE_uhttpd-mod-ubus=y
+CONFIG_PACKAGE_unzip=m
+#CONFIG_PACKAGE_v2ray is not set
+#CONFIG_PACKAGE_v2ray-plugin is not set
+CONFIG_PACKAGE_wget-ssl=m
+# CONFIG_PACKAGE_wpad-basic-wolfssl is not set
+CONFIG_PACKAGE_wpad-openssl=y
+CONFIG_PACKAGE_xray-core=m
+CONFIG_PACKAGE_zerotier=m
+CONFIG_PACKAGE_zlib=y
+CONFIG_TARGET_INITRAMFS_COMPRESSION_GZIP=y
+# CONFIG_TARGET_INITRAMFS_COMPRESSION_LZMA is not set
+#CONFIG_V2RAY_COMPRESS_GOPROXY is not set
+#CONFIG_V2RAY_COMPRESS_UPX is not set
+#CONFIG_V2RAY_EXCLUDE_ASSETS is not set
+#CONFIG_V2RAY_EXCLUDE_V2CTL is not set
+# CONFIG_WPA_WOLFSSL is not set
+CONFIG_boost-compile-visibility-hidden=y
+CONFIG_boost-runtime-shared=y
+CONFIG_boost-static-and-shared-libs=y
+CONFIG_boost-variant-release=y
+#CONFIG_v2ray-plugin_INCLUDE_GOPROXY is not set
+# CONFIG_PACKAGE_dnsmasq_full_auth is not set
+# CONFIG_PACKAGE_dnsmasq_full_conntrack is not set
+# CONFIG_PACKAGE_dnsmasq_full_dhcpv6 is not set
+# CONFIG_PACKAGE_dnsmasq_full_dnssec is not set
+# CONFIG_PACKAGE_dnsmasq_full_noid is not set
+# CONFIG_PACKAGE_libgmp is not set
+# CONFIG_PACKAGE_libnetfilter-conntrack is not set
+# CONFIG_PACKAGE_libnettle is not set
+# CONFIG_PACKAGE_libnfnetlink is not set
